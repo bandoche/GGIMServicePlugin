@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'Gadu-GaduServicePlugin' target in the 'Gadu-GaduServicePlugin' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif

@@ -1,0 +1,261 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA5BF9D414A87E9C009B4070 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA5BF9D314A87E9C009B4070 /* Cocoa.framework */; };
+		FA5BF9DE14A87E9C009B4070 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FA5BF9DC14A87E9C009B4070 /* InfoPlist.strings */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FA5BF9D014A87E9C009B4070 /* Gadu-GaduServicePlugin.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Gadu-GaduServicePlugin.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA5BF9D314A87E9C009B4070 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		FA5BF9D614A87E9C009B4070 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		FA5BF9D714A87E9C009B4070 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		FA5BF9D814A87E9C009B4070 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FA5BF9DB14A87E9C009B4070 /* Gadu-GaduServicePlugin-Info.plist */ = {isa = PBXFileReference; path = "Gadu-GaduServicePlugin-Info.plist"; sourceTree = "<group>"; };
+		FA5BF9DD14A87E9C009B4070 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FA5BF9DF14A87E9C009B4070 /* Gadu-GaduServicePlugin-Prefix.pch */ = {isa = PBXFileReference; path = "Gadu-GaduServicePlugin-Prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA5BF9CD14A87E9C009B4070 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA5BF9D414A87E9C009B4070 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA5BF9C514A87E9B009B4070 = {
+			isa = PBXGroup;
+			children = (
+				FA5BF9D914A87E9C009B4070 /* Gadu-GaduServicePlugin */,
+				FA5BF9D214A87E9C009B4070 /* Frameworks */,
+				FA5BF9D114A87E9C009B4070 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FA5BF9D114A87E9C009B4070 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA5BF9D014A87E9C009B4070 /* Gadu-GaduServicePlugin.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA5BF9D214A87E9C009B4070 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FA5BF9D314A87E9C009B4070 /* Cocoa.framework */,
+				FA5BF9D514A87E9C009B4070 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FA5BF9D514A87E9C009B4070 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FA5BF9D614A87E9C009B4070 /* AppKit.framework */,
+				FA5BF9D714A87E9C009B4070 /* CoreData.framework */,
+				FA5BF9D814A87E9C009B4070 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		FA5BF9D914A87E9C009B4070 /* Gadu-GaduServicePlugin */ = {
+			isa = PBXGroup;
+			children = (
+				FA5BF9DA14A87E9C009B4070 /* Supporting Files */,
+			);
+			path = "Gadu-GaduServicePlugin";
+			sourceTree = "<group>";
+		};
+		FA5BF9DA14A87E9C009B4070 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FA5BF9DB14A87E9C009B4070 /* Gadu-GaduServicePlugin-Info.plist */,
+				FA5BF9DC14A87E9C009B4070 /* InfoPlist.strings */,
+				FA5BF9DF14A87E9C009B4070 /* Gadu-GaduServicePlugin-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA5BF9CF14A87E9C009B4070 /* Gadu-GaduServicePlugin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA5BF9E214A87E9C009B4070 /* Build configuration list for PBXNativeTarget "Gadu-GaduServicePlugin" */;
+			buildPhases = (
+				FA5BF9CC14A87E9C009B4070 /* Sources */,
+				FA5BF9CD14A87E9C009B4070 /* Frameworks */,
+				FA5BF9CE14A87E9C009B4070 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Gadu-GaduServicePlugin";
+			productName = "Gadu-GaduServicePlugin";
+			productReference = FA5BF9D014A87E9C009B4070 /* Gadu-GaduServicePlugin.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA5BF9C714A87E9B009B4070 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = FA5BF9CA14A87E9B009B4070 /* Build configuration list for PBXProject "Gadu-GaduServicePlugin" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FA5BF9C514A87E9B009B4070;
+			productRefGroup = FA5BF9D114A87E9C009B4070 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA5BF9CF14A87E9C009B4070 /* Gadu-GaduServicePlugin */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA5BF9CE14A87E9C009B4070 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA5BF9DE14A87E9C009B4070 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA5BF9CC14A87E9C009B4070 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FA5BF9DC14A87E9C009B4070 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA5BF9DD14A87E9C009B4070 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FA5BF9E014A87E9C009B4070 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		FA5BF9E114A87E9C009B4070 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		FA5BF9E314A87E9C009B4070 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Gadu-GaduServicePlugin/Gadu-GaduServicePlugin-Prefix.pch";
+				INFOPLIST_FILE = "Gadu-GaduServicePlugin/Gadu-GaduServicePlugin-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		FA5BF9E414A87E9C009B4070 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Gadu-GaduServicePlugin/Gadu-GaduServicePlugin-Prefix.pch";
+				INFOPLIST_FILE = "Gadu-GaduServicePlugin/Gadu-GaduServicePlugin-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA5BF9CA14A87E9B009B4070 /* Build configuration list for PBXProject "Gadu-GaduServicePlugin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA5BF9E014A87E9C009B4070 /* Debug */,
+				FA5BF9E114A87E9C009B4070 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA5BF9E214A87E9C009B4070 /* Build configuration list for PBXNativeTarget "Gadu-GaduServicePlugin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA5BF9E314A87E9C009B4070 /* Debug */,
+				FA5BF9E414A87E9C009B4070 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA5BF9C714A87E9B009B4070 /* Project object */;
+}
