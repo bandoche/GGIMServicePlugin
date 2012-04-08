@@ -4,6 +4,12 @@
 <dict>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>English</string>
+	<key>IMUsesServerHostAccountSetting</key>
+	<false/>
+	<key>IMUsesServerPortAccountSetting</key>
+	<false/>
+	<key>IMUsesEnableSSLAccountSetting</key>
+	<false/>
 	<key>CFBundleExecutable</key>
 	<string>${EXECUTABLE_NAME}</string>
 	<key>CFBundleIconFile</key>
@@ -25,6 +31,13 @@
 	<key>NSHumanReadableCopyright</key>
 	<string>Copyright © 2011 __MyCompanyName__. All rights reserved.</string>
 	<key>NSPrincipalClass</key>
-	<string></string>
+	<string>GGServicePlugin</string>
+	<key>IMServiceCapabilities</key>
+	<array>
+		<string>IMServiceCapabilityInstantMessagingSupport</string>
+		<string>IMServiceCapabilityGroupListSupport</string>
+		<string>IMServiceCapabilityGroupListHandlePictureSupport</string>
+		<string>IMServiceCapabilityPresenceSupport</string>
+	</array>
 </dict>
 </plist>

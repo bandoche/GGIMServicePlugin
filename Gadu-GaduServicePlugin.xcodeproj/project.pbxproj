@@ -7,19 +7,97 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FA33ACB414B77FA200E54E08 /* GGContact.m in Sources */ = {isa = PBXBuildFile; fileRef = FA33ACAD14B77FA200E54E08 /* GGContact.m */; };
+		FA33ACB514B77FA200E54E08 /* GGMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = FA33ACAF14B77FA200E54E08 /* GGMessage.m */; };
+		FA33ACB614B77FA200E54E08 /* GGStatus.m in Sources */ = {isa = PBXBuildFile; fileRef = FA33ACB114B77FA200E54E08 /* GGStatus.m */; };
+		FA33ACB714B77FA200E54E08 /* LibGaduWrapper.mm in Sources */ = {isa = PBXBuildFile; fileRef = FA33ACB314B77FA200E54E08 /* LibGaduWrapper.mm */; };
+		FA33ACBF14B77FD500E54E08 /* NSDataAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FA33ACBA14B77FD500E54E08 /* NSDataAdditions.m */; };
+		FA33ACC014B77FD500E54E08 /* RXMLElement.m in Sources */ = {isa = PBXBuildFile; fileRef = FA33ACBC14B77FD500E54E08 /* RXMLElement.m */; };
+		FA33ACC114B77FD500E54E08 /* TBXML.m in Sources */ = {isa = PBXBuildFile; fileRef = FA33ACBE14B77FD500E54E08 /* TBXML.m */; };
+		FA33ACDE14B77FFC00E54E08 /* stamp-h2 in Resources */ = {isa = PBXBuildFile; fileRef = FA33ACCD14B77FFC00E54E08 /* stamp-h2 */; };
+		FA33ACDF14B77FFC00E54E08 /* common.c in Sources */ = {isa = PBXBuildFile; fileRef = FA33ACCE14B77FFC00E54E08 /* common.c */; };
+		FA33ACE014B77FFC00E54E08 /* dcc.c in Sources */ = {isa = PBXBuildFile; fileRef = FA33ACCF14B77FFC00E54E08 /* dcc.c */; };
+		FA33ACE114B77FFC00E54E08 /* dcc7.c in Sources */ = {isa = PBXBuildFile; fileRef = FA33ACD014B77FFC00E54E08 /* dcc7.c */; };
+		FA33ACE214B77FFC00E54E08 /* debug.c in Sources */ = {isa = PBXBuildFile; fileRef = FA33ACD114B77FFC00E54E08 /* debug.c */; };
+		FA33ACE314B77FFC00E54E08 /* deflate.c in Sources */ = {isa = PBXBuildFile; fileRef = FA33ACD214B77FFC00E54E08 /* deflate.c */; };
+		FA33ACE414B77FFC00E54E08 /* encoding.c in Sources */ = {isa = PBXBuildFile; fileRef = FA33ACD314B77FFC00E54E08 /* encoding.c */; };
+		FA33ACE514B77FFC00E54E08 /* events.c in Sources */ = {isa = PBXBuildFile; fileRef = FA33ACD414B77FFC00E54E08 /* events.c */; };
+		FA33ACE614B77FFC00E54E08 /* handlers.c in Sources */ = {isa = PBXBuildFile; fileRef = FA33ACD514B77FFC00E54E08 /* handlers.c */; };
+		FA33ACE714B77FFC00E54E08 /* http.c in Sources */ = {isa = PBXBuildFile; fileRef = FA33ACD614B77FFC00E54E08 /* http.c */; };
+		FA33ACE814B77FFC00E54E08 /* libgadu.c in Sources */ = {isa = PBXBuildFile; fileRef = FA33ACD714B77FFC00E54E08 /* libgadu.c */; };
+		FA33ACE914B77FFC00E54E08 /* message.c in Sources */ = {isa = PBXBuildFile; fileRef = FA33ACD814B77FFC00E54E08 /* message.c */; };
+		FA33ACEA14B77FFC00E54E08 /* obsolete.c in Sources */ = {isa = PBXBuildFile; fileRef = FA33ACD914B77FFC00E54E08 /* obsolete.c */; };
+		FA33ACEB14B77FFC00E54E08 /* pubdir.c in Sources */ = {isa = PBXBuildFile; fileRef = FA33ACDA14B77FFC00E54E08 /* pubdir.c */; };
+		FA33ACEC14B77FFC00E54E08 /* pubdir50.c in Sources */ = {isa = PBXBuildFile; fileRef = FA33ACDB14B77FFC00E54E08 /* pubdir50.c */; };
+		FA33ACED14B77FFC00E54E08 /* resolver.c in Sources */ = {isa = PBXBuildFile; fileRef = FA33ACDC14B77FFC00E54E08 /* resolver.c */; };
+		FA33ACEE14B77FFC00E54E08 /* sha1.c in Sources */ = {isa = PBXBuildFile; fileRef = FA33ACDD14B77FFC00E54E08 /* sha1.c */; };
+		FA33ACF014B7802900E54E08 /* libssl.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = FA33ACEF14B7802900E54E08 /* libssl.dylib */; };
+		FA33ACF214B7803800E54E08 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA33ACF114B7803800E54E08 /* Security.framework */; };
+		FA33ACF414B7804600E54E08 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = FA33ACF314B7804600E54E08 /* libz.dylib */; };
 		FA5BF9D414A87E9C009B4070 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA5BF9D314A87E9C009B4070 /* Cocoa.framework */; };
 		FA5BF9DE14A87E9C009B4070 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FA5BF9DC14A87E9C009B4070 /* InfoPlist.strings */; };
+		FA5BF9E714A87F9A009B4070 /* GGServicePlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = FA5BF9E614A87F9A009B4070 /* GGServicePlugin.m */; };
+		FA5BF9E914A8808A009B4070 /* IMServicePlugIn.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA5BF9E814A8808A009B4070 /* IMServicePlugIn.framework */; };
+		FA5BF9EB14A89C04009B4070 /* GaduGadu.png in Resources */ = {isa = PBXBuildFile; fileRef = FA5BF9EA14A89C04009B4070 /* GaduGadu.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		FA5BF9D014A87E9C009B4070 /* Gadu-GaduServicePlugin.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Gadu-GaduServicePlugin.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA33ACAC14B77FA200E54E08 /* GGContact.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGContact.h; sourceTree = "<group>"; };
+		FA33ACAD14B77FA200E54E08 /* GGContact.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGContact.m; sourceTree = "<group>"; };
+		FA33ACAE14B77FA200E54E08 /* GGMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGMessage.h; sourceTree = "<group>"; };
+		FA33ACAF14B77FA200E54E08 /* GGMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGMessage.m; sourceTree = "<group>"; };
+		FA33ACB014B77FA200E54E08 /* GGStatus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGStatus.h; sourceTree = "<group>"; };
+		FA33ACB114B77FA200E54E08 /* GGStatus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGStatus.m; sourceTree = "<group>"; };
+		FA33ACB214B77FA200E54E08 /* LibGaduWrapper.hh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = LibGaduWrapper.hh; sourceTree = "<group>"; };
+		FA33ACB314B77FA200E54E08 /* LibGaduWrapper.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = LibGaduWrapper.mm; sourceTree = "<group>"; };
+		FA33ACB914B77FD500E54E08 /* NSDataAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSDataAdditions.h; sourceTree = "<group>"; };
+		FA33ACBA14B77FD500E54E08 /* NSDataAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSDataAdditions.m; sourceTree = "<group>"; };
+		FA33ACBB14B77FD500E54E08 /* RXMLElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RXMLElement.h; sourceTree = "<group>"; };
+		FA33ACBC14B77FD500E54E08 /* RXMLElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RXMLElement.m; sourceTree = "<group>"; };
+		FA33ACBD14B77FD500E54E08 /* TBXML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBXML.h; sourceTree = "<group>"; };
+		FA33ACBE14B77FD500E54E08 /* TBXML.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBXML.m; sourceTree = "<group>"; };
+		FA33ACC314B77FFC00E54E08 /* compat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = compat.h; sourceTree = "<group>"; };
+		FA33ACC414B77FFC00E54E08 /* debug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = debug.h; sourceTree = "<group>"; };
+		FA33ACC514B77FFC00E54E08 /* deflate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = deflate.h; sourceTree = "<group>"; };
+		FA33ACC614B77FFC00E54E08 /* encoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = encoding.h; sourceTree = "<group>"; };
+		FA33ACC714B77FFC00E54E08 /* internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = internal.h; sourceTree = "<group>"; };
+		FA33ACC814B77FFC00E54E08 /* libgadu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = libgadu.h; sourceTree = "<group>"; };
+		FA33ACC914B77FFC00E54E08 /* message.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = message.h; sourceTree = "<group>"; };
+		FA33ACCA14B77FFC00E54E08 /* protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = protocol.h; sourceTree = "<group>"; };
+		FA33ACCB14B77FFC00E54E08 /* resolver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = resolver.h; sourceTree = "<group>"; };
+		FA33ACCC14B77FFC00E54E08 /* session.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = session.h; sourceTree = "<group>"; };
+		FA33ACCD14B77FFC00E54E08 /* stamp-h2 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "stamp-h2"; sourceTree = "<group>"; };
+		FA33ACCE14B77FFC00E54E08 /* common.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = common.c; sourceTree = "<group>"; };
+		FA33ACCF14B77FFC00E54E08 /* dcc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = dcc.c; sourceTree = "<group>"; };
+		FA33ACD014B77FFC00E54E08 /* dcc7.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = dcc7.c; sourceTree = "<group>"; };
+		FA33ACD114B77FFC00E54E08 /* debug.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = debug.c; sourceTree = "<group>"; };
+		FA33ACD214B77FFC00E54E08 /* deflate.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = deflate.c; sourceTree = "<group>"; };
+		FA33ACD314B77FFC00E54E08 /* encoding.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = encoding.c; sourceTree = "<group>"; };
+		FA33ACD414B77FFC00E54E08 /* events.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = events.c; sourceTree = "<group>"; };
+		FA33ACD514B77FFC00E54E08 /* handlers.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = handlers.c; sourceTree = "<group>"; };
+		FA33ACD614B77FFC00E54E08 /* http.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = http.c; sourceTree = "<group>"; };
+		FA33ACD714B77FFC00E54E08 /* libgadu.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = libgadu.c; sourceTree = "<group>"; };
+		FA33ACD814B77FFC00E54E08 /* message.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = message.c; sourceTree = "<group>"; };
+		FA33ACD914B77FFC00E54E08 /* obsolete.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = obsolete.c; sourceTree = "<group>"; };
+		FA33ACDA14B77FFC00E54E08 /* pubdir.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pubdir.c; sourceTree = "<group>"; };
+		FA33ACDB14B77FFC00E54E08 /* pubdir50.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pubdir50.c; sourceTree = "<group>"; };
+		FA33ACDC14B77FFC00E54E08 /* resolver.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = resolver.c; sourceTree = "<group>"; };
+		FA33ACDD14B77FFC00E54E08 /* sha1.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sha1.c; sourceTree = "<group>"; };
+		FA33ACEF14B7802900E54E08 /* libssl.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libssl.dylib; path = usr/lib/libssl.dylib; sourceTree = SDKROOT; };
+		FA33ACF114B7803800E54E08 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		FA33ACF314B7804600E54E08 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		FA5BF9D014A87E9C009B4070 /* Gadu-Gadu.imserviceplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Gadu-Gadu.imserviceplugin"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA5BF9D314A87E9C009B4070 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		FA5BF9D614A87E9C009B4070 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		FA5BF9D714A87E9C009B4070 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		FA5BF9D814A87E9C009B4070 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		FA5BF9DB14A87E9C009B4070 /* Gadu-GaduServicePlugin-Info.plist */ = {isa = PBXFileReference; path = "Gadu-GaduServicePlugin-Info.plist"; sourceTree = "<group>"; };
+		FA5BF9DB14A87E9C009B4070 /* Gadu-GaduServicePlugin-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Gadu-GaduServicePlugin-Info.plist"; sourceTree = "<group>"; };
 		FA5BF9DD14A87E9C009B4070 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		FA5BF9DF14A87E9C009B4070 /* Gadu-GaduServicePlugin-Prefix.pch */ = {isa = PBXFileReference; path = "Gadu-GaduServicePlugin-Prefix.pch"; sourceTree = "<group>"; };
+		FA5BF9DF14A87E9C009B4070 /* Gadu-GaduServicePlugin-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Gadu-GaduServicePlugin-Prefix.pch"; sourceTree = "<group>"; };
+		FA5BF9E514A87F9A009B4070 /* GGServicePlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGServicePlugin.h; sourceTree = "<group>"; };
+		FA5BF9E614A87F9A009B4070 /* GGServicePlugin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGServicePlugin.m; sourceTree = "<group>"; };
+		FA5BF9E814A8808A009B4070 /* IMServicePlugIn.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IMServicePlugIn.framework; path = System/Library/Frameworks/IMServicePlugIn.framework; sourceTree = SDKROOT; };
+		FA5BF9EA14A89C04009B4070 /* GaduGadu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GaduGadu.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,6 +105,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA33ACF414B7804600E54E08 /* libz.dylib in Frameworks */,
+				FA33ACF214B7803800E54E08 /* Security.framework in Frameworks */,
+				FA33ACF014B7802900E54E08 /* libssl.dylib in Frameworks */,
+				FA5BF9E914A8808A009B4070 /* IMServicePlugIn.framework in Frameworks */,
 				FA5BF9D414A87E9C009B4070 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -34,6 +116,68 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FA33ACAA14B77F8600E54E08 /* LibGaduWrapper */ = {
+			isa = PBXGroup;
+			children = (
+				FA33ACB214B77FA200E54E08 /* LibGaduWrapper.hh */,
+				FA33ACB314B77FA200E54E08 /* LibGaduWrapper.mm */,
+				FA33ACAC14B77FA200E54E08 /* GGContact.h */,
+				FA33ACAD14B77FA200E54E08 /* GGContact.m */,
+				FA33ACAE14B77FA200E54E08 /* GGMessage.h */,
+				FA33ACAF14B77FA200E54E08 /* GGMessage.m */,
+				FA33ACB014B77FA200E54E08 /* GGStatus.h */,
+				FA33ACB114B77FA200E54E08 /* GGStatus.m */,
+			);
+			name = LibGaduWrapper;
+			sourceTree = "<group>";
+		};
+		FA33ACB814B77FBA00E54E08 /* RaptureXML */ = {
+			isa = PBXGroup;
+			children = (
+				FA33ACB914B77FD500E54E08 /* NSDataAdditions.h */,
+				FA33ACBA14B77FD500E54E08 /* NSDataAdditions.m */,
+				FA33ACBB14B77FD500E54E08 /* RXMLElement.h */,
+				FA33ACBC14B77FD500E54E08 /* RXMLElement.m */,
+				FA33ACBD14B77FD500E54E08 /* TBXML.h */,
+				FA33ACBE14B77FD500E54E08 /* TBXML.m */,
+			);
+			name = RaptureXML;
+			sourceTree = "<group>";
+		};
+		FA33ACC214B77FE700E54E08 /* LibGadu */ = {
+			isa = PBXGroup;
+			children = (
+				FA33ACC314B77FFC00E54E08 /* compat.h */,
+				FA33ACC414B77FFC00E54E08 /* debug.h */,
+				FA33ACC514B77FFC00E54E08 /* deflate.h */,
+				FA33ACC614B77FFC00E54E08 /* encoding.h */,
+				FA33ACC714B77FFC00E54E08 /* internal.h */,
+				FA33ACC814B77FFC00E54E08 /* libgadu.h */,
+				FA33ACC914B77FFC00E54E08 /* message.h */,
+				FA33ACCA14B77FFC00E54E08 /* protocol.h */,
+				FA33ACCB14B77FFC00E54E08 /* resolver.h */,
+				FA33ACCC14B77FFC00E54E08 /* session.h */,
+				FA33ACCD14B77FFC00E54E08 /* stamp-h2 */,
+				FA33ACCE14B77FFC00E54E08 /* common.c */,
+				FA33ACCF14B77FFC00E54E08 /* dcc.c */,
+				FA33ACD014B77FFC00E54E08 /* dcc7.c */,
+				FA33ACD114B77FFC00E54E08 /* debug.c */,
+				FA33ACD214B77FFC00E54E08 /* deflate.c */,
+				FA33ACD314B77FFC00E54E08 /* encoding.c */,
+				FA33ACD414B77FFC00E54E08 /* events.c */,
+				FA33ACD514B77FFC00E54E08 /* handlers.c */,
+				FA33ACD614B77FFC00E54E08 /* http.c */,
+				FA33ACD714B77FFC00E54E08 /* libgadu.c */,
+				FA33ACD814B77FFC00E54E08 /* message.c */,
+				FA33ACD914B77FFC00E54E08 /* obsolete.c */,
+				FA33ACDA14B77FFC00E54E08 /* pubdir.c */,
+				FA33ACDB14B77FFC00E54E08 /* pubdir50.c */,
+				FA33ACDC14B77FFC00E54E08 /* resolver.c */,
+				FA33ACDD14B77FFC00E54E08 /* sha1.c */,
+			);
+			name = LibGadu;
+			sourceTree = "<group>";
+		};
 		FA5BF9C514A87E9B009B4070 = {
 			isa = PBXGroup;
 			children = (
@@ -46,7 +190,7 @@
 		FA5BF9D114A87E9C009B4070 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FA5BF9D014A87E9C009B4070 /* Gadu-GaduServicePlugin.bundle */,
+				FA5BF9D014A87E9C009B4070 /* Gadu-Gadu.imserviceplugin */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -54,6 +198,13 @@
 		FA5BF9D214A87E9C009B4070 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				FA33ACF314B7804600E54E08 /* libz.dylib */,
+				FA33ACF114B7803800E54E08 /* Security.framework */,
+				FA33ACEF14B7802900E54E08 /* libssl.dylib */,
+				FA33ACC214B77FE700E54E08 /* LibGadu */,
+				FA33ACB814B77FBA00E54E08 /* RaptureXML */,
+				FA33ACAA14B77F8600E54E08 /* LibGaduWrapper */,
+				FA5BF9E814A8808A009B4070 /* IMServicePlugIn.framework */,
 				FA5BF9D314A87E9C009B4070 /* Cocoa.framework */,
 				FA5BF9D514A87E9C009B4070 /* Other Frameworks */,
 			);
@@ -81,9 +232,12 @@
 		FA5BF9DA14A87E9C009B4070 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				FA5BF9EA14A89C04009B4070 /* GaduGadu.png */,
 				FA5BF9DB14A87E9C009B4070 /* Gadu-GaduServicePlugin-Info.plist */,
 				FA5BF9DC14A87E9C009B4070 /* InfoPlist.strings */,
 				FA5BF9DF14A87E9C009B4070 /* Gadu-GaduServicePlugin-Prefix.pch */,
+				FA5BF9E514A87F9A009B4070 /* GGServicePlugin.h */,
+				FA5BF9E614A87F9A009B4070 /* GGServicePlugin.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -105,7 +259,7 @@
 			);
 			name = "Gadu-GaduServicePlugin";
 			productName = "Gadu-GaduServicePlugin";
-			productReference = FA5BF9D014A87E9C009B4070 /* Gadu-GaduServicePlugin.bundle */;
+			productReference = FA5BF9D014A87E9C009B4070 /* Gadu-Gadu.imserviceplugin */;
 			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
@@ -139,6 +293,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA5BF9DE14A87E9C009B4070 /* InfoPlist.strings in Resources */,
+				FA5BF9EB14A89C04009B4070 /* GaduGadu.png in Resources */,
+				FA33ACDE14B77FFC00E54E08 /* stamp-h2 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,6 +305,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA5BF9E714A87F9A009B4070 /* GGServicePlugin.m in Sources */,
+				FA33ACB414B77FA200E54E08 /* GGContact.m in Sources */,
+				FA33ACB514B77FA200E54E08 /* GGMessage.m in Sources */,
+				FA33ACB614B77FA200E54E08 /* GGStatus.m in Sources */,
+				FA33ACB714B77FA200E54E08 /* LibGaduWrapper.mm in Sources */,
+				FA33ACBF14B77FD500E54E08 /* NSDataAdditions.m in Sources */,
+				FA33ACC014B77FD500E54E08 /* RXMLElement.m in Sources */,
+				FA33ACC114B77FD500E54E08 /* TBXML.m in Sources */,
+				FA33ACDF14B77FFC00E54E08 /* common.c in Sources */,
+				FA33ACE014B77FFC00E54E08 /* dcc.c in Sources */,
+				FA33ACE114B77FFC00E54E08 /* dcc7.c in Sources */,
+				FA33ACE214B77FFC00E54E08 /* debug.c in Sources */,
+				FA33ACE314B77FFC00E54E08 /* deflate.c in Sources */,
+				FA33ACE414B77FFC00E54E08 /* encoding.c in Sources */,
+				FA33ACE514B77FFC00E54E08 /* events.c in Sources */,
+				FA33ACE614B77FFC00E54E08 /* handlers.c in Sources */,
+				FA33ACE714B77FFC00E54E08 /* http.c in Sources */,
+				FA33ACE814B77FFC00E54E08 /* libgadu.c in Sources */,
+				FA33ACE914B77FFC00E54E08 /* message.c in Sources */,
+				FA33ACEA14B77FFC00E54E08 /* obsolete.c in Sources */,
+				FA33ACEB14B77FFC00E54E08 /* pubdir.c in Sources */,
+				FA33ACEC14B77FFC00E54E08 /* pubdir50.c in Sources */,
+				FA33ACED14B77FFC00E54E08 /* resolver.c in Sources */,
+				FA33ACEE14B77FFC00E54E08 /* sha1.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -217,9 +397,11 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Gadu-GaduServicePlugin/Gadu-GaduServicePlugin-Prefix.pch";
 				INFOPLIST_FILE = "Gadu-GaduServicePlugin/Gadu-GaduServicePlugin-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = bundle;
+				INSTALL_PATH = "~/Library/iChat/PlugIns";
+				OTHER_LDFLAGS = "-lcrypto";
+				PRODUCT_NAME = "Gadu-Gadu";
+				STRIP_STYLE = all;
+				WRAPPER_EXTENSION = imserviceplugin;
 			};
 			name = Debug;
 		};
@@ -229,9 +411,11 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Gadu-GaduServicePlugin/Gadu-GaduServicePlugin-Prefix.pch";
 				INFOPLIST_FILE = "Gadu-GaduServicePlugin/Gadu-GaduServicePlugin-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = bundle;
+				INSTALL_PATH = "~/Library/iChat/PlugIns";
+				OTHER_LDFLAGS = "-lcrypto";
+				PRODUCT_NAME = "Gadu-Gadu";
+				STRIP_STYLE = all;
+				WRAPPER_EXTENSION = imserviceplugin;
 			};
 			name = Release;
 		};
@@ -254,6 +438,7 @@
 				FA5BF9E414A87E9C009B4070 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
